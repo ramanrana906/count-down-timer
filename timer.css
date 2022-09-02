@@ -1,0 +1,90 @@
+
+body{
+    background-color: rgb(167, 234, 234);
+  
+}
+
+#input-div{
+    background-image: linear-gradient(#f28fab,#c3c576);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    color: white;
+
+
+
+}
+
+#input-area{
+ width: 100%;
+    justify-content:space-around;
+    display: flex;
+    height: 15%;
+   
+}
+
+#input-area input{
+   width: 400px;
+font-size: larger;
+color: blue;
+text-align: right;
+   }
+
+   #input-area button{
+    width: 200px;
+ font-size: larger;
+ border-radius: 20px;
+ box-shadow: 5px 10px #888888;
+
+    }
+
+
+    #counter-container{
+        background-color: black;
+        height: 40vh;
+        width: 70%;
+        margin-left: 12rem;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        overflow: hidden;
+       
+    }
+
+    .counter{
+        
+     
+        color: black;
+        height: 100px;
+        width: 100px;
+     overflow: hidden;
+       
+     
+    }
+
+
+    p{
+        text-align: center;
+        
+        line-height: 80px;
+        margin: 0px;
+     width: 100%;
+     background-color: white;
+        border-top: 2px solid black;
+        font-size: 50px;
+    }
+
+    p.next{
+        position: relative;
+        top: 100px;
+    }
+
+    p.animate{
+        transition: all 0.5s;
+        top:-80px;
+    }
